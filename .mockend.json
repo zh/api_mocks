@@ -1,6 +1,6 @@
 {
   "Group": {
-    "id": "string",
+    "txid": "string",
     "symbol": "string",
     "name": "string",
     "docuri": "string",
@@ -9,7 +9,7 @@
     "tokens": "Token[]"
   },
   "Token": {
-    "id": "string",
+    "txid": "string",
     "type": "string",
     "symbol": "string",
     "name": "string",
