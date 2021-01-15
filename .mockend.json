@@ -5,7 +5,7 @@
     "name": "string",
     "docuri": "string",
     "dochash": "string",
-    "quantity": "string",
+    "quantity": "int",
     "tokens": "Token[]"
   },
   "Token": {
