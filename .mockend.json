@@ -1,13 +1,20 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+  "Group": {
+    "id": "string",
+    "symbol": "string",
+    "name": "string",
+    "docuri": "string",
+    "dochash": "string",
+    "quantity": "string",
+    "tokens": "Token[]"
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "Token": {
+    "id": "string",
+    "type": "string",
+    "symbol": "string",
+    "name": "string",
+    "docuri": "string",
+    "dochash": "string",
+    "group": "Group"
   }
 }
